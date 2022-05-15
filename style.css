@@ -1,0 +1,79 @@
+html {
+  height: 100vh;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: blue;
+}
+
+.calculator {
+  background-color: black;
+  display: grid;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+.flex {
+  margin: 0 auto;
+}
+#txtouput {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 20px 5px;
+  box-sizing: border-box;
+  font-size: 25px;
+  outline: none;
+}
+.operators {
+  display: flex;
+  flex-direction: column;
+}
+.operators button {
+  width: 5rem;
+  height: 5rem;
+  border: 0;
+  margin: 3px;
+  font-size: 3rem;
+  cursor: pointer;
+  background-color: #f1b90f;
+  border-radius: 50%;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.w100 {
+  width: 97%;
+}
+
+.selected {
+  background-color: #000;
+  color: #f1b90f;
+}
+
+.nums button {
+  width: 5rem;
+  height: 5rem;
+  border: 0;
+  margin: 3px;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: dimgrey;
+}
+
+.equals button {
+  width: 98%;
+  height: 50px;
+  border: 1px solid white;
+  margin: 3px;
+  font-size: 3rem;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
